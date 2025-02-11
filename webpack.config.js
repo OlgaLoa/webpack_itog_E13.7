@@ -4,8 +4,8 @@ const require = createRequire(import.meta.url);
 const MiniCssExtractPlugin = require('mini-css-extract-plugin');
 const HtmlWebpackPlugin = require('html-webpack-plugin')  //создает HTML-файл на основе шаблона
 
-/* global module */
-module.exports = (env) => {
+
+export default (env) => {
     const isDevelopment = env.development; //вводим переменную для определения среды разработки
     return {
         mode: isDevelopment ? 'development' : 'production',

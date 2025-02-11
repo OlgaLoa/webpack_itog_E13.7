@@ -1,10 +1,12 @@
 {
+
   "name": "wp_testing",
   "version": "1.0.0",
   "description": "",
   "license": "ISC",
   "author": "Olga",
   "main": "index.js",
+  "type": "module",
   "scripts": {
     "build": "webpack",
     "start:dev": "webpack serve",
